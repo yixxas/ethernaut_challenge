@@ -12,3 +12,4 @@ artifacts
 #
 *.swp
 scripts/deploy.ts
+.env
