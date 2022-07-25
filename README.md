@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# Ethernaut challenges
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Scripts are tested on contracts deployed on local Ethereum network with Hardhat.
 
-Try running some of the following tasks:
+Contract address in scripts are the specific address instance deployed during testing. Deploy your own instance to test if needed.
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+Player address is a random address taken from one of the 20 accounts provided in local network
