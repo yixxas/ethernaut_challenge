@@ -11,6 +11,7 @@ contract Elevator {
   uint public floor;
 
   function goTo(uint _floor) public {
+    // Building interface has the function isLastFloor but logic is not implemented
     Building building = Building(msg.sender);
 
     if (! building.isLastFloor(_floor)) {
