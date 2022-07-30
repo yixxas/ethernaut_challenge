@@ -16,7 +16,7 @@ async function main(){
     let contract_b = await ethers.getContractAt("GatekeeperTwoHack", address_b, signer);
 
     let entrant = await contract_a.entrant();
-    console.log(tx);
+    console.log(entrant);
 
 }
 
