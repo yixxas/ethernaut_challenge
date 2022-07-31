@@ -9,6 +9,7 @@ Stage 12 tested on rinkeby network. Pretty easy stage with some understanding of
 Stage 13 is tricky, especially the part on bit notations. Understanding of hexa representation of numbers is required.
 Stage 14 ext function is a low level call. extcodesize of EOA account will be 0, but >0 for contracts. If we try to check contract size in the constructor function though, it will be 0 as constructor function is part of the creation code and not the runtime code. read https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c/ for more details. Gate three is simple as long as we know the fact a ^ a = 0 and uint(64)-1 in 2 complements is the same as uint64.max.
 Stage 15 is interesting. Had no idea how to bypass timelock inititally. Was able to figure out after reading the clue on "contract is lacking certain implementations of ERC20 contract".
+Stage 16, need to figure out why proxy contract is not being called correctly.
 
 Contract address in scripts are the specific address instance deployed during testing. Deploy your own instance to test if needed.
 
