@@ -13,6 +13,7 @@ Stage 16, need to figure out why proxy contract is not being called correctly. U
 Approach to this is not too difficult once we understand delegate call's storage slot.<br />
 Stage 17 is easy. Figure out lost address by either calculating, or scan transaction history on the block.<br />
 Stage 18 teaches us to write a contract using EVM OPCODE. Pretty meaningful stage.<br />
+Stage 19 is the toughest stage thus far. Understanding of dynamic storage allocation in the EVM is required and the non standard implementation of keccak256 made it even more confusing.<br />
 
 
 Contract address in scripts are the specific address instance deployed during testing. Deploy your own instance to test if needed.
