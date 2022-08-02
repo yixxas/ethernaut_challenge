@@ -17,8 +17,6 @@ async function main(){
     await tx.wait();
     console.log(await contract_a.partner());
     
-
-
     
 
 }
