@@ -16,8 +16,8 @@ Stage 18 teaches us to write a contract using EVM OPCODE. Pretty meaningful stag
 Stage 19 is the toughest stage thus far. Understanding of dynamic storage allocation in the EVM is required and the non standard implementation of keccak256 made it even more confusing.<br />
 Stage 20 is a really easy stage. We simply have to force an out of gas revert on the partner call address which we can set and since the low level OPCODE call has no gas restriction set and all avaliable gas are forwarded to it (63/64 gas avaliable actually). <br />
 Stage 21 is easy stage too. Similar to Elevator stage, except, `view` is used for interface this time.<br />
-Stage 22 - medium difficulty. All about the pricing mechnanism used here.
-
+Stage 22 - medium difficulty. All about the pricing mechnanism used here.<br />
+Stage 23 - Dex2 easier than first part. Use of a "fake" token to make the swaps.
 
 Contract address in scripts are the specific address instance deployed during testing. Deploy your own instance to test if needed.
 
