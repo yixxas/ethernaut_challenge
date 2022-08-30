@@ -2,6 +2,8 @@
 
 Scripts are tested on contracts deployed on local Ethereum network with Hardhat.
 
+From stage 9 onwards, all are tested on rinkeby network.
+
 Stage 9 is tested on rinkeby network as King's challenge cannot be tested locally.<br /> 
 Stage 10 is similarly tested on rinkby network. Pretty annoying stage due to not realising reason for transaction reverting as we have to manually handle gas fees required by the recursive call<br />
 Stage 11 tested on rinkeby network. On first glance, it was hard to grasp what the problem was as Building interface used in the contract had no implementation, which ultimately was the key to the exploit.<br />
