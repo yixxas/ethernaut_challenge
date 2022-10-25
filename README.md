@@ -1,5 +1,5 @@
 # Ethernaut challenges
-
+* Notes taken here are for my own references for easy recap when I see similar exploits in the wild.
 Scripts are tested on contracts deployed on local Ethereum network with Hardhat.
 
 From stage 9 onwards, all are tested on rinkeby network.
